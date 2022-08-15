@@ -1,0 +1,45 @@
+.new-user-form {
+  background: #fff;
+  width: 95%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.add-user__control {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-user__control label {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+.add-user__control input {
+  margin-bottom: 10px;
+  padding: 3px;
+  font-size: 15px;
+}
+
+.add-user__control input:focus {
+  border-color: #4b0b52;
+  outline-color: #4b0b52;
+}
+
+.new-user-form button {
+  border: none;
+  background: #4b0b52;
+  color: #fff;
+  padding: 6px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.new-user-form button:hover {
+  opacity: 0.7;
+}
